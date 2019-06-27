@@ -1,0 +1,2 @@
+# Login Overview
+This folder contains all the contents for the Login screen and functionality. When a user enters a name and clicks the LoginButton, a SendBird object is retrieved and assigned to that user's individual instance of the app. The SendBird object contains the data and functions required for much of this application's core logic. The SendBird object is referred to as "sb" throughout the app codebase.

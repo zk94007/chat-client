@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatMenu /> does it render correctly 1`] = `
+<Fragment>
+  <WithStyles(IconButton)
+    data-testid="chatMenuButton"
+    onClick={[Function]}
+  >
+    <pure(MoreVertIcon) />
+  </WithStyles(IconButton)>
+  <WithStyles(Menu)
+    anchorEl={null}
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      View Participants
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      Leave Channel
+    </WithStyles(MenuItem)>
+    <WithStyles(DeleteChannelButton)
+      channel={
+        Object {
+          "isOperatorWithUserId": [MockFunction],
+        }
+      }
+      history={Object {}}
+      sb={
+        Object {
+          "getCurrentUserId": [MockFunction],
+        }
+      }
+    />
+  </WithStyles(Menu)>
+  <WithStyles(ParticipantsList)
+    channel={
+      Object {
+        "isOperatorWithUserId": [MockFunction],
+      }
+    }
+    isOpen={false}
+    participants={
+      Array [
+        "test1",
+        "test2",
+        "test3",
+      ]
+    }
+    toggle={[Function]}
+  />
+</Fragment>
+`;

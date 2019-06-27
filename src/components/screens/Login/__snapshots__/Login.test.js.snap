@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> the entire login page renders correctly 1`] = `
+<div
+  className="Login-loginContainer-1"
+>
+  <h1>
+    react.chat
+  </h1>
+  <TextField
+    InputLabelProps={
+      Object {
+        "shrink": true,
+      }
+    }
+    id="username"
+    label="Username"
+    margin="normal"
+    onChange={[Function]}
+    placeholder="Enter a username"
+    required={false}
+    select={false}
+    value=""
+    variant="standard"
+  />
+  <LoginButton
+    history={Object {}}
+    id="loginButton"
+    setSB={[MockFunction]}
+    username=""
+  />
+</div>
+`;

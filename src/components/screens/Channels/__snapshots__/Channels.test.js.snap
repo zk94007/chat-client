@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Channels /> does it render correctly 1`] = `
+<Fragment>
+  <WithStyles(Navbar)
+    history={Object {}}
+    sb={Object {}}
+  />
+  <div
+    className="Channels-channelsContainer-1"
+  >
+    <div
+      className="Channels-channelList-2"
+    >
+      <WithStyles(ChannelList)
+        channels={Array []}
+        enterChannel={[Function]}
+        history={Object {}}
+      />
+    </div>
+    <div
+      className="Channels-createChannel-3"
+    >
+      <CreateChannelButton
+        enterChannel={[Function]}
+        history={Object {}}
+        sb={Object {}}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

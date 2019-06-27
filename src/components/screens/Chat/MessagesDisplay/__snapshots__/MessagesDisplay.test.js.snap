@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessagesDisplay /> does it render 1`] = `
+<Fragment>
+  <ul
+    className="MessagesDisplay-messageList-1"
+  >
+    <li
+      key="test-you0"
+    >
+      <WithStyles(MessageBubble)
+        message="test-you"
+        sender="You"
+      />
+    </li>
+    <li
+      key="other-test1"
+    >
+      <WithStyles(MessageBubble)
+        message="other-test"
+        sender="someoneElse"
+      />
+    </li>
+    <li
+      key="someone has left2"
+    >
+      <WithStyles(MessageBubble)
+        message="someone has left"
+        sender="info"
+      />
+    </li>
+  </ul>
+</Fragment>
+`;

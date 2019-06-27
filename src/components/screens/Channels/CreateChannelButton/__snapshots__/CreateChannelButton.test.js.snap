@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateChannelButton /> it renders only the button when isOpen=false 1`] = `
+<Fragment>
+  <WithStyles(Fab)
+    color="primary"
+    data-testid="create-channel-button"
+    onClick={[Function]}
+  >
+    <pure(AddIcon) />
+  </WithStyles(Fab)>
+  <WithStyles(Dialog)
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(DialogTitle)
+      id="form-dialog-title"
+    >
+      Create Channel
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <TextField
+        autoFocus={true}
+        fullWidth={true}
+        label="Channel Name"
+        margin="dense"
+        onChange={[Function]}
+        required={false}
+        select={false}
+        variant="standard"
+      />
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Cancel
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        id="createChannel"
+        onClick={[Function]}
+      >
+        Create
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+</Fragment>
+`;
+
+exports[`<CreateChannelButton /> it renders the Dialog when isOpen=true/ + button has been clicked 1`] = `
+<Fragment>
+  <WithStyles(Fab)
+    color="primary"
+    data-testid="create-channel-button"
+    onClick={[Function]}
+  >
+    <pure(AddIcon) />
+  </WithStyles(Fab)>
+  <WithStyles(Dialog)
+    onClose={[Function]}
+    open={true}
+  >
+    <WithStyles(DialogTitle)
+      id="form-dialog-title"
+    >
+      Create Channel
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <TextField
+        autoFocus={true}
+        fullWidth={true}
+        label="Channel Name"
+        margin="dense"
+        onChange={[Function]}
+        required={false}
+        select={false}
+        variant="standard"
+      />
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Cancel
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        id="createChannel"
+        onClick={[Function]}
+      >
+        Create
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+</Fragment>
+`;

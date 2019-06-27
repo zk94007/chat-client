@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChannelList /> it renders correctly 1`] = `
+<div
+  className="ChannelList-channelListContainer-1"
+>
+  <WithStyles(Paper)>
+    <WithStyles(List)
+      className="ChannelList-channelButtonList-2"
+      subheader={
+        <WithStyles(ListSubheader)
+          color="primary"
+        >
+          Channels
+        </WithStyles(ListSubheader)>
+      }
+    >
+      <div
+        key="test-channel10"
+      >
+        <WithStyles(Button)
+          className="ChannelList-channelButton-3"
+          data-testid="test-channel10"
+          onClick={[Function]}
+        >
+          test-channel1
+        </WithStyles(Button)>
+      </div>
+      <div
+        key="test-channel21"
+      >
+        <WithStyles(Button)
+          className="ChannelList-channelButton-3"
+          data-testid="test-channel21"
+          onClick={[Function]}
+        >
+          test-channel2
+        </WithStyles(Button)>
+      </div>
+      <div
+        key="test-channel32"
+      >
+        <WithStyles(Button)
+          className="ChannelList-channelButton-3"
+          data-testid="test-channel32"
+          onClick={[Function]}
+        >
+          test-channel3
+        </WithStyles(Button)>
+      </div>
+    </WithStyles(List)>
+  </WithStyles(Paper)>
+</div>
+`;

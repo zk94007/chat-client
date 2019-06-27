@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageInput /> it renders correctly 1`] = `
+<div
+  className="MessageInput-messageInputContainer-1"
+>
+  <TextField
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(InputAdornment)
+          position="end"
+        >
+          <WithStyles(IconButton)
+            color="default"
+            onClick={[Function]}
+            variant="contained"
+          >
+            <pure(SendRoundedIcon) />
+          </WithStyles(IconButton)>
+        </WithStyles(InputAdornment)>,
+      }
+    }
+    className="MessageInput-messageInputTextField-2"
+    margin="normal"
+    multiline={true}
+    onChange={[Function]}
+    required={false}
+    rowsMax="4"
+    select={false}
+    value=""
+    variant="outlined"
+  />
+</div>
+`;

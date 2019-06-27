@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlertDialog /> it renders correctly 1`] = `
+<Fragment>
+  <WithStyles(Dialog)
+    onClose={[MockFunction]}
+    open={true}
+  >
+    <WithStyles(DialogTitle)>
+      test message
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        className="message-container"
+      >
+        this is a test
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        autoFocus={true}
+        color="primary"
+        onClick={[MockFunction]}
+      >
+        Close
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+</Fragment>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavMenu /> it renders correctly 1`] = `
+<div
+  className="Navbar-root-1"
+>
+  <WithStyles(AppBar)
+    position="static"
+  >
+    <WithStyles(Toolbar)>
+      <WithStyles(Typography)
+        color="inherit"
+        variant="h6"
+      >
+        react.chat
+      </WithStyles(Typography)>
+      <div
+        className="Navbar-menuIcon-2"
+      >
+        <NavMenu />
+      </div>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+</div>
+`;

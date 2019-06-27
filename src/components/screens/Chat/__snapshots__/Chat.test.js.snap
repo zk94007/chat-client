@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chat /> it renders a loading spinner while loading 1`] = `
+<div
+  className="Chat-loadingSpinner-4"
+>
+  <WithStyles(CircularProgress) />
+</div>
+`;
+
+exports[`<Chat /> it renders after loading 1`] = `
+<Fragment>
+  <WithStyles(Navbar)
+    history={Object {}}
+    sb={Object {}}
+  />
+  <div
+    className="Chat-chatContainer-1"
+  >
+    <div
+      className="Chat-chatHeader-3"
+    >
+      <ChatHeader
+        title="test-channel"
+      >
+        <ChatMenu
+          channel={Object {}}
+          history={Object {}}
+          participants={Array []}
+          sb={Object {}}
+        />
+      </ChatHeader>
+    </div>
+    <div
+      className="Chat-messagesDisplay-5"
+    >
+      <WithStyles(MessagesDisplay)
+        messages={Array []}
+      />
+    </div>
+    <div
+      className="Chat-createMessage-2"
+    >
+      <WithStyles(MessageInput)
+        addMessage={[Function]}
+        channel={Object {}}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

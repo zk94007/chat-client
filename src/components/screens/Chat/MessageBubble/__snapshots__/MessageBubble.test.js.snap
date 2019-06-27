@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessagesDisplay /> messages from 'info' render correctly 1`] = `
+<div
+  className="MessageBubble-bubbleWrapper-1"
+>
+  <div
+    className="MessageBubble-infoMessage-4"
+    id="displayMessage"
+  >
+    someone has left
+  </div>
+</div>
+`;
+
+exports[`<MessagesDisplay /> messages from 'sender: You' render correctly 1`] = `
+<div
+  className="MessageBubble-bubbleWrapper-1"
+>
+  <div
+    className="MessageBubble-bubbleYou-2"
+    id="displayMessage"
+  >
+    You: test-you
+  </div>
+</div>
+`;
+
+exports[`<MessagesDisplay /> messages from 'sender: someoneElse' render correctly 1`] = `
+<div
+  className="MessageBubble-bubbleWrapper-1"
+>
+  <div
+    className="MessageBubble-bubbleOther-3"
+    id="displayMessage"
+  >
+    someoneElse: other-test
+  </div>
+</div>
+`;

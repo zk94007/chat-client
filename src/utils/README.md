@@ -1,0 +1,3 @@
+# Utils Overview
+
+This folder houses files containing functions and procedures that are used at multiple points throughout the application. The majority of these functions are base functionality provided by the SendBird SDK that has been expanded upon. If a different chat service is used in the future, much of the logic that has been abstracted to these files could be rewritten using the specs of the new service to effectively replace the chat service backbone of the application. That being said, there still exist singular use procedures/ functions within components that would need to be rewritten as well (Login, for example). 

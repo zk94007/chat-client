@@ -1,0 +1,3 @@
+# Chat Overview
+
+This folder contains all the contents for the Chat screen. The primary parent component - <Chat> - contains the majority of the data and transformation logic that is fed into the other components. Many of the functions and procedures used are built off of functionality provided by the SendBird SDK. If this functionality is used in multiple places, it has been abstracted into the "utils" folder. Of particular importance is the ChannelHandler/ listener functionality. When the chat component mounts with a channel assigned, a channel handler is added to it that listens to activity from that channel (messages received, user joined/ left, etc.). This functionality is largely served by the channelHandler.js file within the utils folder. 

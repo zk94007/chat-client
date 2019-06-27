@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantsList /> it renders correctly 1`] = `
+<Fragment>
+  <WithStyles(Drawer)
+    onClick={[MockFunction]}
+    open={true}
+  >
+    <div>
+      <div
+        className="ParticipantsList-participantsListContainer-1"
+      >
+        <WithStyles(List)
+          subheader={
+            <WithStyles(ListSubheader)
+              color="primary"
+            >
+              Active Users
+            </WithStyles(ListSubheader)>
+          }
+        >
+          <WithStyles(ListItem)
+            key="One0"
+          >
+            One
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            key="Two1"
+          >
+            Two
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            key="Three2"
+          >
+            Three
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+            key="Four3"
+          >
+            Four
+          </WithStyles(ListItem)>
+        </WithStyles(List)>
+      </div>
+    </div>
+  </WithStyles(Drawer)>
+</Fragment>
+`;
